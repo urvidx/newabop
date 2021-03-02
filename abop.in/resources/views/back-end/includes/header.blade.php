@@ -53,7 +53,7 @@
             <div class="wt-navigationarea">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style= "padding-left: 130px; padding-right: 430px;">
                             @auth
                                 {{ Helper::displayEmailWarning() }}
                             @endauth

@@ -32,7 +32,7 @@
 </style>
 <section class="wt-haslayout wt-dbsectionspace" id="profile_settings">
         <div class="row">
-            <div class="col-xs-6 col-sm-12 col-md-6 col-lg-6 float-right">
+            <div class="col-xs-6 col-sm-12 col-md-6 col-lg-6 float-right" >
                 @if (Session::has('message'))
                     <div class="flash_msg">
                         <flash_messages :message_class="'success'" :time ='5' :message="'{{{ Session::get('message') }}}'" v-cloak></flash_messages>

@@ -157,7 +157,7 @@
                 <div class="wt-navigationarea">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style = "padding-left:230px; padding-right:230px;">
                                 @if (!empty($logo) || Schema::hasTable('site_managements'))
                                     <strong class="wt-logo"><a href="{{{ url('/') }}}"><img src="{{{ asset($logo) }}}" alt="{{{ trans('Logo') }}}"></a></strong>
                                 @endif
