@@ -1,0 +1,265 @@
+.absolute{
+  position: absolute;
+}
+.relative{
+  position: relative;
+}
+.pagintotalRes {
+    top: -30px;
+    /* left: 0px; */
+    margin: 6px;
+}
+.hide{
+  display: none;
+}
+
+span.filterButton {
+    font-size: large;
+    cursor: pointer;
+    display: none;
+    text-decoration: underline;
+}
+span.filterButtonHide{
+  font-size: large;
+    cursor: pointer;
+    display: none;
+    text-decoration: underline;
+}
+.postModalDivInner{
+    margin: 20px 14px 20px 6px;
+    float: right;
+}
+.filterDivsShowHIde{
+  display: none;
+}
+/*.customeHeader{
+	min-height: 22pc;
+    margin-top: 5pc;
+}
+.wt-bannerholdervtwo:before, .wt-bannerholder:before {
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    content: '';
+    position: absolute;
+    background: rgba(50,50,50,0.40);
+}*/
+.wt-navigationarea > .container-fluid{
+	/*min-height: 350px;*/
+}
+.customeHeader > .container{
+	/*margin-left: -6pc;*/
+}
+/*.customeHeader > .container > .wt-bannercontent{
+	padding-top: unset;
+}
+
+.customeHeader > .container > .row > .col-12 > .wt-bannercontent{
+   background: white;
+    opacity: 0.9;
+    padding: 20px;
+    color: darkblue;
+}*/
+/*.customeHeader > .container > .row > .col-12 > .wt-bannercontent::before
+{
+   content: "";
+   display: block;
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   background:white;
+   opacity: 0.5;
+
+}
+*/
+.customeHeader > .container > .row > .col-12 > .wt-bannercontent > .wt-bannerhead > .wt-title > h1{
+	color: darkblue;
+}
+.wt-bannerholdervtwo .wt-formbanner fieldset .form-group .form-control{
+	    background-color: whitesmoke;
+}
+.wt-bannerholdervtwo .wt-formbanner fieldset .form-group .form-control{
+	    padding-left: 20px;
+}
+.wt-formbannertwo .wt-dropdown{
+	display: none;
+}
+
+
+    .mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+  max-height: 500px;
+  overflow: hidden;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/*.active, .dot:hover {
+  background-color: #717171;
+}*/
+
+/* Fading animation */
+.fadee {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+
+.owl-stage .owl-item img {
+    width: auto;
+    height: 500px;
+    object-fit: cover;
+}
+.wt-formbanner.wt-formbannertwo fieldset .form-group .form-control {
+    border-radius: 4px;
+    padding: 10px 10px 10px 10px;
+    background: ghostwhite
+}
+.text-left{
+	text-align: left;
+}
+
+.setback{
+	background-color: rgba(255, 255, 255, 0.7);
+}
+.wt-collapseexp.show{
+  display: block;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+.mainacontainDiv{
+  position: relative;
+}
+.innerSearchDiv{
+  	position: absolute;
+    min-width: 800px;
+    color: black;
+    top: 22%;
+    z-index: 1;
+    max-width: 55%;
+    width: 50%;
+}
+.colorBlue{
+  color: #1f408e
+}
+@media (max-width: 991px){
+	.custom-bannercontent {
+     	padding: 10px 0; 
+	 }
+
+
+}
+
+@media (max-width: 776px){
+	.custom-bannercontent {
+     	padding: 10px 0; 
+	 }
+     .innerSearchDiv{
+     	min-width: auto;
+     	max-width: unset !important;
+      width: unset;
+     }
+
+}
+
+@media (max-width: 767px){
+  
+  .filterDiv{
+    display: none;
+  }
+  span.filterButton{
+    display: block;
+  }
+  .pagintotalRes{
+    text-align: center;
+  }
+  .searchFormRespon{
+    display: none;
+  }
+  .postModalDivInner{
+    float: unset;
+  }
+  .filterDivsShowHIde{
+    display: block;
+  }
+}
